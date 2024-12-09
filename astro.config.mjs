@@ -4,7 +4,8 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://sandhope.github.io',
-	base: 'astro-starlight-i18n-demo',
+	base: '/astro-starlight-i18n-demo',
+	trailingSlash: 'never',
 	integrations: [
 		starlight({
 			title: {
