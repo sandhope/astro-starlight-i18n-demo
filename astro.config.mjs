@@ -3,11 +3,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://sandhope.github.io',
+	base: 'astro-starlight-i18n-demo',
 	integrations: [
 		starlight({
 			title: {
-				en: 'My Docs',
-				'zh-CN': '我的文档',
+				en: 'astro-starlight-i18n-demo',
+				'zh-CN': 'astro-starlight-i18n-demo',
 			},
 			social: {
 				github: 'https://github.com/withastro/starlight',
